@@ -29,6 +29,7 @@ CREATE TABLE [dbo].[CheckOutTbl] (
 ### RegistrationTbl is : :point_down:
 CREATE TABLE [dbo].[RegistrationTbl] (
     [Id]               INT          IDENTITY (1, 1) NOT NULL,
+    
     [FirstName]        VARCHAR (50) NOT NULL,
     [LastName]         NCHAR (50)   NOT NULL,
     [Phone]            VARCHAR (50) NOT NULL,
@@ -46,6 +47,7 @@ CREATE TABLE [dbo].[RegistrationTbl] (
 
 CREATE TABLE [dbo].[RoomsTbl] (
     [Id]               INT          IDENTITY (1, 1) NOT NULL,
+    
     [RoomNumber]       INT          NOT NULL,
     [RoomAvailability] VARCHAR (50) NOT NULL,
     [RoomType]         NCHAR (50)   NOT NULL,
@@ -56,6 +58,7 @@ CREATE TABLE [dbo].[RoomsTbl] (
 
 CREATE TABLE [dbo].[UsersTbl] (
     [Id]       INT          IDENTITY (1, 1) NOT NULL,
+    
     [Email]    VARCHAR (50) NOT NULL,
     [Password] VARCHAR (50) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
