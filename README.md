@@ -1,6 +1,6 @@
 # HotelManagmentSystem
 
-This project is developed with C# Winform. My first experience for reservation system. You can reserv rooms to database. You can also modify rooms, reservations and can check out rooms. Most amazing thing is you cannot book the same room for the same date. If you want you have to delete or check out first room. You can develop this project and I spend only 4 days for this project. I couldn't spend much time on this project due to other work. But Looks like it needs some improvement :))
+This project is developed with C# Winform. My first experience for reservation system. There are progressbar , login, dashboard, registration, rooms, reservations, check out pages. You can reserv rooms to database. You can also modify rooms, reservations and check out rooms. Most amazing thing is you cannot book the same room for the same date. If you want you have to delete or check out first room. You can develop this project. Unfortunately I spend only 4 days for this project. I couldn't spend much time on this project due to other work. But Looks like it needs some improvement :rofl:
 
 # Create Database with Sql Server
 
