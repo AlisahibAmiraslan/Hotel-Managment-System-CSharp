@@ -4,12 +4,12 @@ This project is developed with C# Winform. My first experience for reservation s
 
 # Create Database with Sql Server
 
-My database is that
+My database is that :point_down:
 
 ---- First create Database for example HotelManagmentSystem
 ---- second create tables for example CheckOutTbl, RegistrationTbl, RoomsTbl and UsersTbl
 
-### CheckOutTbl is : 
+### CheckOutTbl is : :point_down:
 
 CREATE TABLE [dbo].[CheckOutTbl] (
     [Id]           INT          IDENTITY (1, 1) NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE [dbo].[CheckOutTbl] (
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-### RegistrationTbl is :
+### RegistrationTbl is : :point_down:
 CREATE TABLE [dbo].[RegistrationTbl] (
     [Id]               INT          IDENTITY (1, 1) NOT NULL,
     [FirstName]        VARCHAR (50) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE [dbo].[RegistrationTbl] (
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-### RoomsTbl is :
+### RoomsTbl is : :point_down:
 
 CREATE TABLE [dbo].[RoomsTbl] (
     [Id]               INT          IDENTITY (1, 1) NOT NULL,
@@ -51,7 +51,7 @@ CREATE TABLE [dbo].[RoomsTbl] (
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-### UsersTbl is :
+### UsersTbl is : :point_down:
 
 CREATE TABLE [dbo].[UsersTbl] (
     [Id]       INT          IDENTITY (1, 1) NOT NULL,
